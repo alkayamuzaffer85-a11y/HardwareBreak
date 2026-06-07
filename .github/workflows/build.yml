@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build with Buildozer
-        uses: ArtemSBulgakov/buildozer-action@v4
+        uses: ArtemSBulgakov/buildozer-action@v1
         with:
           buildozer_version: stable
         env:
